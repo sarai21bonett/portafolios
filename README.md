@@ -1,4 +1,4 @@
-¡Hola a todos! Soy Sarai Bonett. aqui comparto un poco de mi experiencia en la area de la informatica.
+¡Hola a todos! Soy Sarai Bonett. aqui comparto un poco de mi experiencia en la informatica.
 
 Perfil Profesional:
 Técnica Superior Universitaria en Informática, actualmente Estudiante de Ingeniería en informática con experiencia en reparación de computadoras, 
