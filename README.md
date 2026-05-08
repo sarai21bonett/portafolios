@@ -2,7 +2,7 @@
 
 Perfil Profesional:
 Técnica Superior Universitaria en Informática, actualmente Estudiante de Ingeniería en informática con experiencia en reparación de computadoras, 
-robótica básica y jueza de robótica en la WRO (World Robot Olympiad).
+robótica básica y juez de robótica en la WRO (World Robot Olympiad).
 
 Poseo habilidades en Python e inteligencia artificial, HTML, CSS, JavaScript y MySQL. Comprometida con el aprendizaje continuo y en busca de oportunidades
 para aplicar y desarrollar mis habilidades técnicas.
