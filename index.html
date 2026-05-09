@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -5,57 +6,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sarai Bonett | Portafolio</title>
     <style>
-        body { font-family: 'Segoe UI', sans-serif; background-color: #0a0b10; color: #e6edf3; text-align: center; padding: 40px; margin: 0; }
-        h1 { color: #00d4ff; text-transform: uppercase; }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background-color: #0a0b10; 
+            color: #e6edf3; 
+            text-align: center; 
+            padding: 40px; 
+            margin: 0; 
+        }
+
+        h1 { 
+            color: #00d4ff; 
+            text-transform: uppercase; 
+            letter-spacing: 3px;
+            margin-bottom: 5px;
+        }
+
+        .subtitulo {
+            font-size: 1.1rem;
+            color: #8b949e;
+            margin-bottom: 40px;
+        }
         
         /* Contenedor Flex para alinear los 3 cuadros arriba */
         .container { 
             display: flex; 
             flex-direction: row; 
             justify-content: center; 
-            gap: 20px; 
-            max-width: 1200px; 
+            gap: 30px; 
+            max-width: 1400px; 
             margin: 40px auto; 
+            flex-wrap: wrap; /* Para que sea responsive */
         }
 
+        /* Cuadros más grandes y estilizados */
         .card { 
             background: #161b22; 
-            border: 1px solid #30363d; 
-            border-radius: 12px; 
-            padding: 25px; 
-            width: 300px; 
+            border: 2px solid #30363d; 
+            border-radius: 16px; 
+            padding: 30px; /* Más espacio interno */
+            width: 300px;  /* Ancho aumentado */
+            min-height: 300px; /* Altura aumentada */
             text-decoration: none; 
             color: inherit; 
-            transition: 0.3s; 
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
             display: flex; 
             flex-direction: column; 
             justify-content: space-between; 
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
         }
 
-        .card:hover { border-color: #00d4ff; transform: translateY(-5px); }
-        .btn { background: #0056b3; color: white; padding: 12px; border-radius: 6px; margin-top: 15px; font-weight: bold; font-size: 0.8rem; }
+        /* Efecto Hover Futuista */
+        .card:hover { 
+            border-color: #00d4ff; 
+            transform: translateY(-15px); 
+            box-shadow: 0 0 25px rgba(0, 212, 255, 0.3);
+            background: #1c2128;
+        }
+
+        .card h2 {
+            font-size: 2rem;
+            margin-top: 0;
+            color: #ffffff;
+        }
+
+        .card p {
+            font-size: 1.1rem;
+            color: #8b949e;
+            line-height: 1.6;
+        }
+
+        /* Botón mejorado */
+        .btn { 
+            background: #0056b3; 
+            color: white; 
+            padding: 15px; 
+            border-radius: 8px; 
+            margin-top: 20px; 
+            font-weight: bold; 
+            font-size: 0.9rem; 
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: 0.3s;
+        }
+
+        .card:hover .btn {
+            background: #00d4ff;
+            color: #0a0b10;
+            box-shadow: 0 0 10px #00d4ff;
+        }
     </style>
 </head>
 <body>
     <h1>Sarai Anni Bonett</h1>
-    <p>TSU en Informática | Estudiante de Ingeniería UNEXCA</p>
+    <p class="subtitulo">TSU en Informática | Estudiante de Ingeniería UNEXCA</p>
     
     <div class="container">
-        <!-- Proyecto 1 -->
         <a href="proyecto1/index.html" class="card">
-            <div><h2>Proyecto 1</h2><p>Maquetación inicial.</p></div>
+            <div>
+                <h2>Proyecto 1</h2>
+                <p>Primer Proyecto Universitario, creación de una pagina web con tematica del Turismo en Venezuela.</p>
+            </div>
             <span class="btn">VER PROYECTO</span>
         </a>
 
-        <!-- Proyecto 2 -->
         <a href="proyecto%20sencillo/proyecto2/index.html" class="card">
-            <div><h2>Proyecto 2</h2><p>Estructura y Lógica.</p></div>
+            <div>
+                <h2>Proyecto 2</h2>
+                <p>Pequeño proyecto sencillo realizado para un compañero, con tematica en adopciones para
+                    animalitos callejeros.</p>
+            </div>
             <span class="btn">VER PROYECTO</span>
         </a>
 
-        <!-- Proyecto 3: Ruta corregida a .html según tu imagen -->
         <a href="proyecto3%20pagina/principal.html" class="card">
-            <div><h2>Proyecto 3</h2><p>Desarrollo Avanzado.</p></div>
+            <div>
+                <h2>Proyecto 3</h2>
+                <p>Proyecto basico, pagina web con tematica en la cultura china..</p>
+            </div>
             <span class="btn">VER PROYECTO</span>
         </a>
     </div>
