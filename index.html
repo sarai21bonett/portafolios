@@ -6,11 +6,34 @@
     <title>Sarai Bonett | Portafolio</title>
     <style>
         body { font-family: 'Segoe UI', sans-serif; background-color: #0a0b10; color: #e6edf3; text-align: center; padding: 40px; margin: 0; }
-        .container { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; max-width: 1000px; margin: 40px auto; }
-        .card { background: #161b22; border: 1px solid #30363d; border-radius: 12px; padding: 25px; width: 280px; text-decoration: none; color: inherit; transition: 0.3s; display: flex; flex-direction: column; justify-content: space-between; }
-        .card:hover { border-color: #00d4ff; transform: translateY(-5px); box-shadow: 0 0 15px rgba(0, 212, 255, 0.1); }
-        h1 { color: #00d4ff; text-transform: uppercase; letter-spacing: 2px; }
-        .btn { background: #0056b3; color: white; padding: 12px; border-radius: 6px; margin-top: 15px; font-weight: bold; font-size: 0.8rem; text-transform: uppercase; }
+        h1 { color: #00d4ff; text-transform: uppercase; }
+        
+        /* Contenedor Flex para alinear los 3 cuadros arriba */
+        .container { 
+            display: flex; 
+            flex-direction: row; 
+            justify-content: center; 
+            gap: 20px; 
+            max-width: 1200px; 
+            margin: 40px auto; 
+        }
+
+        .card { 
+            background: #161b22; 
+            border: 1px solid #30363d; 
+            border-radius: 12px; 
+            padding: 25px; 
+            width: 300px; 
+            text-decoration: none; 
+            color: inherit; 
+            transition: 0.3s; 
+            display: flex; 
+            flex-direction: column; 
+            justify-content: space-between; 
+        }
+
+        .card:hover { border-color: #00d4ff; transform: translateY(-5px); }
+        .btn { background: #0056b3; color: white; padding: 12px; border-radius: 6px; margin-top: 15px; font-weight: bold; font-size: 0.8rem; }
     </style>
 </head>
 <body>
@@ -20,28 +43,19 @@
     <div class="container">
         <!-- Proyecto 1 -->
         <a href="proyecto1/index.html" class="card">
-            <div>
-                <h2>Proyecto 1</h2>
-                <p>Maquetación inicial.</p>
-            </div>
+            <div><h2>Proyecto 1</h2><p>Maquetación inicial.</p></div>
             <span class="btn">VER PROYECTO</span>
         </a>
 
         <!-- Proyecto 2 -->
         <a href="proyecto%20sencillo/proyecto2/index.html" class="card">
-            <div>
-                <h2>Proyecto 2</h2>
-                <p>Estructura y Lógica.</p>
-            </div>
+            <div><h2>Proyecto 2</h2><p>Estructura y Lógica.</p></div>
             <span class="btn">VER PROYECTO</span>
         </a>
 
-        <!-- Proyecto 3 (Ruta corregida según tu archivo) -->
-        <a href="proyecto3%20pagina/principal.thml" class="card">
-            <div>
-                <h2>Proyecto 3</h2>
-                <p>Desarrollo Avanzado.</p>
-            </div>
+        <!-- Proyecto 3: Ruta corregida a .html según tu imagen -->
+        <a href="proyecto3%20pagina/principal.html" class="card">
+            <div><h2>Proyecto 3</h2><p>Desarrollo Avanzado.</p></div>
             <span class="btn">VER PROYECTO</span>
         </a>
     </div>
