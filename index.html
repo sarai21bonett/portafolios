@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarai Bonett | Portafolio Tech</title>
+    <style>
+        :root {
+            --primary-color: #00d4ff;
+            --secondary-color: #0056b3;
+            --bg-color: #0a0b10;
+            --card-bg: #161b22;
+            --text-color: #e6edf3;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: #8b949e;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            width: 90%;
+            max-width: 1000px;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            padding: 30px;
+            text-align: center;
+            transition: transform 0.3s ease, border-color 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            border-color: var(--primary-color);
+            box-shadow: 0 0 15px rgba(0, 212, 255, 0.2);
+        }
+
+        .card h2 {
+            margin-top: 0;
+            font-size: 1.5rem;
+            color: var(--primary-color);
+        }
+
+        .card p {
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 0.8rem;
+            display: inline-block;
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 0.8rem;
+            color: #484f58;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sarai Anni Bonett</h1>
+        <p>TSU en Informática | Estudiante de Ingeniería UNEXCA</p>
+        <p>Passionate about Robotics & Artificial Intelligence</p>
+    </header>
+
+    <div class="container">
+        <!-- Proyecto 1 -->
+        <a href="proyecto1/" class="card">
+            <h2>Proyecto Web I</h2>
+            <p>Desarrollo frontend inicial con HTML y CSS.</p>
+            <span class="btn">Ver Proyecto</span>
+        </a>
+
+        <!-- Proyecto 2 (Proyecto Sencillo) -->
+        <a href="proyecto%20sencillo/" class="card">
+            <h2>Colaboración Web</h2>
+            <p>Implementación de lógica con JavaScript y manejo de DOM.</p>
+            <span class="btn">Ver Proyecto</span>
+        </a>
+
+        <!-- Proyecto 3 (Cambia el nombre de la carpeta abajo, donde dice proyecto3 pagina, alli introduzco la carpeta con el proyecto) -->
+        <a href="proyecto3 pagina/" class="card">
+            <h2>Proyecto Web III</h2>
+            <p>Estructura web avanzada y diseño responsivo.</p>
+            <span class="btn">Ver Proyecto</span>
+        </a>
+    </div>
+
+    <footer>
+        &copy; 2026 Sarai Bonett - Futura Ingeniera en Computación
+    </footer>
+
+</body>
+</html>
