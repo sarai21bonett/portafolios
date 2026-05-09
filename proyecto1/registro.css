@@ -1,0 +1,114 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: helvetica neve, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(imagenes/fondo25.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+form {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    background-color: #99468b;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 25px;
+}
+
+label, p {
+    font-size: 17px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px 11px;
+    border: 1px solid #b00093;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: #f5aee9;
+    outline: none;
+    color: #4d0140;
+    font-size: 16px;
+}
+
+p {
+  font-size: 18px;
+  position: absolute;
+  top: 20px;
+  right: 20px; 
+  background-color: #f05be6;
+  padding: 25px;
+  border-radius: 30px;
+}
+
+.alerta {
+  
+    font-size: 20px;
+    position: absolute;
+    top: 30px;
+    left: 40px; 
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.boton {
+    background-color: #6b045a;
+    border: none;
+    font-size: 13px;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 1.4rem;
+    border-radius: 12px
+}
+
+.boton:hover {
+    background-color: #8c0376;
+}
+
+
+.renember {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.registrarse {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+@media(max-width:991px) {
+    body {
+        padding: 30px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .renember {
+        flex-direction: column;
+    }
+}

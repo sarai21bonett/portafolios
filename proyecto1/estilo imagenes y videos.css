@@ -1,0 +1,102 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(imagenes/flores.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    background-color: hwb(286 17% 36%);
+    color: white;
+    padding: 35px;
+}
+
+h3 {
+    background-color: hwb(280 67% 0%);
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px solid rgb(133, 4, 133);
+}
+
+nav ul {
+    background-color: #e5c4f5;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    border-radius: 60px 60px;
+    border: 3px solid purple;
+}
+
+nav li {
+    display: inline-flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: hsl(0, 0%, 0%);
+    padding: 18px;
+    width: 200px;
+}
+
+nav li:hover {
+    background-color: #8a05b3;
+}
+
+.titulo {
+    padding: 40px;
+}
+
+
+.container {
+    max-width: 1210px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); /* Ajuste para que sea responsivo */
+    grid-gap: 30px;
+    padding: 100px 0;
+}
+
+.box {
+    
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(129, 2, 123, 0.1); /* Sombra suave */
+    overflow: hidden; /* Para que el contenido no sobresalga */
+    transition: transform 0.3s; /* Transición suave al hacer hover */
+    margin: 0; /* Eliminar margen */
+}
+
+.box:hover {
+    transform: scale(1.15); /* Efecto de zoom al pasar el mouse */
+}
+
+.box img {
+    width: 100%; /* Asegúrate de que ocupe todo el ancho */
+    height: auto; /* Mantiene la proporción */
+    object-fit: cover; /* Mantiene la proporción de la imagen */
+    display: block; /* Eliminar espacio debajo de la imagen */
+	border-radius: 10px 40px;
+    border: 7px solid hsl(300, 88%, 30%);
+    margin: 0; /* Eliminar margen */
+    padding: 0; /* Eliminar padding */
+}
+	
+footer {
+    text-align: center;
+    background-color: #5f057a;
+    color: white;
+    padding: 10px;
+}
+
+}
+

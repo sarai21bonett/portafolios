@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="encuesta.css">
+</head>
+<body>
+    <header>
+        <h1>ENCUESTA DE PREGUNTAS</h1>
+        <p>Si te gusta el turismo, tomate un minuto en responder esta encuesta corta.</p>
+    </header>
+    <nav> 
+        <ul>
+            <li><a href="index.html">inicio</a></li>
+            <li><a href="detalles.html">detalles</a></li>
+            <li><a href="imagenes y videos.html">imagenes y videos</a></li>
+            <li><a href="encuesta.html">encuesta</a></li>
+            <li><a href="registro.html">registrate</a></li>
+        </ul>
+    </nav>
+   
+    <div class="container">
+        <form id="surveyForm">
+            <section id="p0">
+                <h3>1- ¿TE GUSTA EL TURISMO?</h3>
+                <label>
+                    <input type="radio" value="1" name="p0"> SI.
+                </label>
+                <label>
+                    <input type="radio" value="0" name="p0"> NO.
+                </label>
+                <label>
+                    <input type="radio" value="0.5" name="p0"> Un poco.
+                </label>
+            </section>
+
+            <section id="p1">
+                <h3>2- ¿QUÉ PIENSAS DE LOS PAISAJES TURÍSTICOS DE VENEZUELA?</h3>
+                <label>
+                    <input type="radio" value="1" name="p1"> Son hermosos.
+                </label>
+                <label>
+                    <input type="radio" value="0.75" name="p1"> Bonitos.
+                </label>
+                <label>
+                    <input type="radio" value="0.5" name="p1"> Hay países con mejor atractivo turístico.
+                </label>
+            </section>
+
+            <section id="p2">
+                <h3>3- ¿Qué lugar prefieres para pasar las vacaciones?</h3>
+                <label>
+                    <input type="radio" value="1" name="p2"> Playas.
+                </label>
+                <label>
+                    <input type="radio" value="1" name="p2"> Montañas.
+                </label>
+                <label>
+                    <input type="radio" value="0.75" name="p2"> Pueblos.
+                </label>
+                <label>
+                    <input type="radio" value="0.5" name="p2"> Zona de nieve.
+                </label>
+            </section>
+            
+            <section id="p3">
+                <h3>4- ¿Te gusta nuestra página turística?</h3>
+                <label>
+                    <input type="radio" value="1" name="p3"> SI. Es muy bonita.
+                </label>
+                <label>
+                    <input type="radio" value="0.5" name="p3"> NORMAL. 
+                </label>
+                <label>
+                    <input type="radio" value="0" name="p3"> NO. 
+                </label>
+            </section>
+
+            <button type="submit" class="boton">Enviar</button>
+        </form>
+    </div>
+
+</body>
+</html>
