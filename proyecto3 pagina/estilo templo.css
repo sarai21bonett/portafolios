@@ -1,0 +1,95 @@
+
+* {
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+ 
+    flex-direction: column; /* Cambia a columna para que el menú esté en la parte superior */
+    justify-content: flex-start; /* Alinea el contenido al inicio */
+    align-items: center;
+	text-align: center;
+    background-image: url(Japon/calles1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+nav {
+    width: 100%; /* Asegúrate de que el menú ocupe todo el ancho */
+	
+}
+
+nav ul {
+	display: flex;
+    text-decoration: none;
+    list-style: none;
+    display: flex; /* Usar flexbox para alinear los elementos del menú */
+    justify-content:left; /* Centrar los elementos del menú */
+    padding: 0; /* Eliminar padding */
+    margin: 0; /* Eliminar margen */
+}
+
+
+.menu .navbar ul li a {
+
+    padding: 20px 30px; /* Aumentar el padding para que el área clickeable sea más grande */
+    color: black;
+    font-weight: bold; 
+	line-height: 60px;
+	
+}
+
+.menu .navbar ul li a:hover {
+    color: white;
+}
+
+.content {
+    min-height: 70px;
+    background: linear-gradient(150deg, #f50505, #f59f9f);
+    width: 100%; /* Asegúrate de que el contenido ocupe todo el ancho */
+}
+
+.contenido {
+    margin: 150px auto;
+    width: 70%;
+}
+
+.text-box {
+    color: white;
+    background-color: #bf2217;
+    padding: 10px;
+    text-align: left;
+    border: 2px solid black;
+}
+
+.text {
+    color: white;
+    background-color: #c24138;
+    padding: 10px;
+    text-align: left;
+    border: 2px solid black;
+}
+
+.text-box h2 {
+    font-size: 42px;
+}
+
+.text-box p {
+    font-size: 25px;
+}
+
+img {
+    max-width: 600px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+p {
+    font-size: 20px;
+}

@@ -1,0 +1,84 @@
+*{
+	box-sizing: border-box;
+	font-family: "balsamic Sans"
+}
+ 
+body {
+
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    height: 120vh;
+    background-image: url(Japon/calles.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+
+nav {
+    width: 100%; /* Asegúrate de que el menú ocupe todo el ancho */
+	
+}
+
+nav ul {
+	display: flex;
+    text-decoration: none;
+    list-style: none;
+    display: flex; /* Usar flexbox para alinear los elementos del menú */
+    justify-content:left; /* Centrar los elementos del menú */
+    padding: 0; /* Eliminar padding */
+    margin: 0; /* Eliminar margen */
+}
+
+
+.menu .navbar ul li a {
+
+    padding: 20px 30px; /* Aumentar el padding para que el área clickeable sea más grande */
+    color: black;
+    font-weight: bold; 
+	line-height: 60px;
+	
+}
+
+.menu .navbar ul li a:hover {
+    color: white;
+}
+
+.content {
+    min-height: 70px;
+    background: linear-gradient(150deg, #f50505, #f59f9f);
+    width: 100%; /* Asegúrate de que el contenido ocupe todo el ancho */
+}
+
+
+.contenido {
+	max-width: 600px;
+	margin: auto;
+	padding: 50px;
+}
+
+section {
+	background-image: url(Japon/cerezo.jpg);
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px 0;
+}
+
+label {
+	display: block;
+	padding: 7px;
+	border-radius: 20px;
+	cursor: pointer;
+	border: 1px dashed white;
+	margin-bottom: 3px;
+}
+
+button {
+	width: 80%;
+	display: block;
+	margin: auto;
+	padding: 10px;
+	background-color: #fa748b;
+}

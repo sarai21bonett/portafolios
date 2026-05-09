@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="encuesta.css">
+</head>
+<body>
+
+    <header>
+        <div class="content">
+            <div class="menu container">
+                <a href="encuesta.html"></a>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="principal.html">inicio</a></li>
+                        <li><a href="templo.html">templo</a></li>
+                        <li><a href="trajes.html">traje</a></li>
+                        <li><a href="gastronomia.html">gastronomia</a></li>
+                        <li><a href="encuesta.html">encuesta</a></li>
+                        <li><a href="formulario.html">formulario</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="contenido">
+        <form id="encuestaForm">
+            <section id="p0">
+                <h3>¿Qué opinas de la cultura japonesa?</h3>
+                <label>
+                    <input type="radio" value="me gusta" name="p0"> Me gusta.
+                </label>
+                <label>
+                    <input type="radio" value="normal" name="p0"> Normal.
+                </label>
+                <label>
+                    <input type="radio" value="no me gusta" name="p0"> No me gusta.
+                </label>
+            </section>
+
+            <section id="p1">
+                <h3>¿Te gustaría visitar Japón?</h3>
+                <label>
+                    <input type="radio" value="si" name="p1"> Sí
+                </label>
+                <label>
+                    <input type="radio" value="tal vez" name="p1"> Tal vez algún día
+                </label>
+                <label>
+                    <input type="radio" value="no" name="p1"> No
+                </label>
+            </section>
+
+            <section id="p2">
+                <h3>¿Cuántas veces comen los japoneses al día?</h3>
+                <label>
+                    <input type="radio" value="2 veces" name="p2"> 2 veces
+                </label>
+                <label>
+                    <input type="radio" value="3 veces" name="p2"> 3 veces
+                </label>
+                <label>
+                    <input type="radio" value="1 vez" name="p2"> 1 vez
+                </label>
+                <label>
+                    <input type="radio" value="4 veces" name="p2"> 4 veces
+                </label>
+            </section>
+
+            <!-- Botón de enviar -->
+            <button type="submit" class="boton">Enviar</button>
+        </form>
+    </div>
+
+</body>
+</html>

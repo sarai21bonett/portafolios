@@ -1,0 +1,108 @@
+ *{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: helvetica neve, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(Japon/calles.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    background-image: url(Japon/cerezo.jpg);
+    background-repeat: no-repeat;
+  	 background-size: cover;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 25px;
+}
+
+label, p {
+    font-size: 17px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px 11px;
+    border: 1px solid #ff0313;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color:#f0aab0 ;
+    outline: none;
+    color: #6b0f16;
+    font-size: 16px;
+}
+
+p {
+  font-size: 18px;
+  position: absolute;
+  top: 20px;
+  left: 30px; 
+  background-color: #f77779;
+  padding: 20px;
+  border-radius: 30px;
+}
+ 
+
+.boton {
+    background-color: #ed7b81;
+    border: none;
+    font-size: 13px;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 1.4rem;
+    border-radius: 12px
+}
+
+.boton:hover {
+    background-color: #de3333;
+}
+
+
+.renember {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.registrarse {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+@media(max-width:991px) {
+    body {
+        padding: 30px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .renember {
+        flex-direction: column;
+    }
+} 

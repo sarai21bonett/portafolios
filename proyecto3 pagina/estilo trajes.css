@@ -1,0 +1,89 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	flex-direction: column; /* Cambia a columna para que el menú esté en la parte superior */
+    justify-content: flex-start; /* Alinea el contenido al inicio */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(Japon/fondo2.jpg);
+	background-size: 100vw 100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+header {
+    width: 100%; /* Asegúrate de que el header ocupe todo el ancho */
+}
+
+nav {
+    width: 100%; /* Asegúrate de que el menú ocupe todo el ancho */
+	
+}
+
+nav ul {
+	display: flex;
+    text-decoration: none;
+    list-style: none;
+    display: flex; /* Usar flexbox para alinear los elementos del menú */
+    justify-content:left; /* Centrar los elementos del menú */
+    padding: 0; /* Eliminar padding */
+    margin: 0; /* Eliminar margen */
+}
+
+
+.menu .navbar ul li a {
+
+    padding: 20px 30px; /* Aumentar el padding para que el área clickeable sea más grande */
+    color: black;
+    font-weight: bold; 
+	line-height: 60px;
+	
+}
+
+.menu .navbar ul li a:hover {
+    color: white;
+}
+
+.content {
+    min-height: 70px;
+    background: linear-gradient(150deg, #f50505, #f59f9f);
+    width: 100%; /* Asegúrate de que el contenido ocupe todo el ancho */
+}
+
+
+.capas {
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+}
+
+.parrafo {
+	width: 1000px;
+	height: 550px;
+	padding: 20px 20px;
+	background: #c24138; 
+}
+
+.parrafo img {
+	width: 300px;
+	float: left;
+	margin-right: 15px;
+}
+
+p {
+	font-size: 21px;
+}
+
+
+
+
+
+
+
