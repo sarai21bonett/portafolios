@@ -95,7 +95,7 @@ function validateForm() {
   // Confirmación antes de redirigir
   if (confirm("¿deseas guardar esta información?")) {
       // Si el usuario acepta, redirige a la otra página
-      window.location.href = "inde.html"; // Cambia esto a la URL de tu página
+      window.location.href = "index.html"; // Cambia esto a la URL de tu página
   }
 
   return false; // Evita que el formulario se envíe
