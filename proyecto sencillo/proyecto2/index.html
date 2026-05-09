@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patitas Felices - Animalitos Callejeros</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+    <!-- NAVBAR fijo -->
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#historias">Historias</a></li>
+            <li><a href="#adopta">Adopta</a></li>
+            <li><a href="#ayuda">Cómo Ayudar</a></li>
+            <li><a href="#animacion">Tributo</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- HEADER con slider (carrusel simple) -->
+ <header id="inicio">
+    <div class="slider">
+        <img src="gatito4.jpeg" alt="mi gatito" class="slide active">
+        <img src="gatito2.jpeg" alt="el rey de mi casa" class="slide">
+    </div>
+    <div class="slider-buttons">
+        <button onclick="cambiarSlide(-1)">❮</button>
+        <button onclick="cambiarSlide(1)">❯</button>
+    </div>
+    <h1>🐾 Dales una segunda oportunidad 🐾</h1>
+    <p>Los animalitos callejeros solo necesitan amor</p>
+</header>
+
+    <!-- SECCIÓN 1: Historia del gatito adoptado -->
+    <section id="historias" class="seccion">
+        <h2> La historia de Michi, mi gatito callejero.✨</h2>
+        <div class="contenido">
+            <img src="gatito3.jpeg" alt="mi gatito">
+            <p>este es mi gatito, un dia le di de comer porque estaba muy hambriento, 
+                me siguó hasta mi hogar, nunca pense que llegaria tan lejos siguiendome,
+                pero vi que no se queria ir de mi puerta, asi que decidi dejarlo entrar a mi hogar
+                para que no pasara la noche con frio, le di comida y se quedo dormido, no pude dejarlo ir
+                asi que temrine adoptandolo.
+        </div>
+    </section>
+
+    <!-- SECCIÓN 2: Información (4 bloques) -->
+    <section id="adopta" class="seccion">
+        <h2>¿Por qué adoptar?🐈</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="gatito6.jpeg" alt="mi gatito">
+                <h3>Amor incondicional</h3>
+                <p>Los animalitos agradecen una segunda oportunidad con todo su corazón.</p>
+            </div>
+            <div class="card">
+                <img src="gatito7.jpeg" alt="mi gatito">
+                <h3>Salvas una vida</h3>
+                <p>Adoptar es un acto de amor que realmente cambia el mundo.</p>
+            </div>
+            <div class="card">
+                <img src="gatito8.jpeg" alt="mi gatito">
+                <h3>Compañía real</h3>
+                <p>Un amigo fiel que te llenará de alegría cada día.</p>
+            </div>
+            <div class="card">
+                <img src="gatito9.jpeg" alt="mi gatito">
+                <h3>Son únicos</h3>
+                <p>Cada animalito tiene su propia personalidad especial.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 3: Cómo ayudar -->
+    <section id="ayuda" class="seccion">
+        <h2> ¿Cómo puedes ayudar?</h2>
+        <div class="contenido">
+            <p>✅ Adoptando en lugar de comprar</p>
+            <p>✅ Voluntariado en refugios</p>
+            <p>✅ Donando comida o medicinas</p>
+            <p>✅ Compartiendo en redes sociales</p>
+        </div>
+    </section>
+
+    <!-- ANIMACIÓN CSS (Tributo) -->
+    <section id="animacion" class="seccion animada">
+        <h2> Por ellos, siempre🌟</h2>
+        <div class="corazon-animado">❤️</div>
+        <p>Cuando adoptas a un animalito de la calle, no solo le das un hogar, le devuelves la esperanza. 
+            Ellos no piden mucho: un plato de comida, un lugar donde dormir sin miedo, y alguien que los mire con cariño.
+            Michi fue uno de esos miles que esperaban una oportunidad. Hoy, es el rey de la casa, 
+            el que llena de ronroneos cada rincón y de recuerdos de que el amor más puro llega cuando menos lo esperas. 
+            La calle los endurece, pero un hogar los transforma. Adoptar es entender que ellos también sienten, también sueñan, 
+            también merecen ser felices.
+            Si puedes abrir tu puerta, hazlo. No cambiarás el mundo entero, pero cambiarás TODO el mundo de un animalito.</p>
+    </section>
+
+    <!-- FORMULARIO DE CONTACTO -->
+    <section id="contacto" class="seccion">
+        <h2>Contactame para mas adopciones.</h2>
+        <form>
+            <input type="text" placeholder="Nombre y Apellido" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Aaron Contreras. - 30.000.000</p>
+        <p>universidad nacional experimental de la gran caracas</p>
+        <p>© 2026 - Todos los derechos reservados | Patitas Felices</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
